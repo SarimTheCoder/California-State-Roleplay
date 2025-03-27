@@ -1,0 +1,324 @@
+/* Default styles are inherited from the main CSS */
+
+/* 320px & below → Small phones */
+@media (max-width: 320px) {
+    .social-links p {
+        word-wrap: break-word; /* Break long words or links */
+        word-break: break-word; /* Ensure links break properly */
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
+        line-height: 1.4; /* Add spacing between lines */
+    }
+
+    .social-links a {
+        display: inline-block; /* Force links to wrap to the next line */
+        word-break: break-word; /* Ensure links break properly */
+    }
+}
+
+/* 375px & below → Small phones */
+@media (max-width: 375px) {
+    .social-links a {
+        word-break: break-word;
+}
+}
+
+/* 425px & below → Phones */
+@media (max-width: 425px) {
+    .social-links a {
+        word-break: break-word;
+}
+       
+    
+}
+
+/* 768px & below → Large phones & tablets */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        overflow-x: hidden; /* Prevent horizontal scrollbars */
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Ensure body takes up full viewport height */
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 15px; /* Add spacing between elements */
+    }
+
+    header .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    header .logo {
+        width: 80px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        margin: 10px 0;
+    }
+
+    header p {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    
+
+    nav ul li {
+        font-size: 1rem;
+    }
+
+    .hero {
+        flex-grow: 1; /* Push the hero section to take up remaining space */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .department-item {
+        font-size: 0.9rem;
+    }
+
+    .contact {
+        padding: 20px;
+    }
+
+    .contact h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact p {
+        font-size: 0.9rem;
+    }
+
+    .social-links p {
+        font-size: 0.9rem;
+        margin-bottom: 8px; /* Reduce spacing */
+    }
+
+    footer {
+        margin-top: auto; /* Push footer to the bottom */
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+
+
+    /* 768px & below → Large phones & tablets */
+@media (max-width: 768px) {
+    .theme-toggle {
+        top: 10px;
+        left: 10px;
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
+
+}
+
+/* 1280px & below → Laptops & desktops */
+@media (max-width: 1280px) {
+    body {
+        font-size: 18px;
+        overflow-x: hidden; /* Prevent horizontal scrollbars */
+    }
+
+    header .logo {
+        width: 120px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.3rem;
+    }
+
+    .hero h2 {
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .department-item {
+        font-size: 1.1rem;
+    }
+
+    .contact h2 {
+        font-size: 2.2rem;
+    }
+
+    .contact p {
+        font-size: 1.1rem;
+    }
+
+    .social-links p {
+        font-size: 1.1rem;
+        margin-bottom: 12px; /* Adjust spacing */
+    }
+}
+
+/* 1440px & below → Large screens */
+@media (max-width: 1440px) {
+    body {
+        font-size: 20px;
+        overflow-x: hidden; /* Prevent horizontal scrollbars */
+    }
+
+    header .logo {
+        width: 140px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header p {
+        font-size: 1.5rem;
+    }
+
+    .hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.3rem;
+    }
+
+    .department-item {
+        font-size: 1.2rem;
+    }
+
+    .contact h2 {
+        font-size: 2.5rem;
+    }
+
+    .contact p {
+        font-size: 1.2rem;
+    }
+
+    .social-links p {
+        font-size: 1.2rem;
+        margin-bottom: 15px; /* Adjust spacing */
+    }
+}
+
+/* 1600px & above → 4K & ultrawide screens */
+@media (min-width: 1600px) {
+    body {
+        font-size: 22px;
+        overflow-x: hidden; /* Prevent horizontal scrollbars */
+    }
+
+    header .logo {
+        width: 160px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    header p {
+        font-size: 1.4rem;
+    }
+
+    .hero h2 {
+        font-size: 2.8rem;
+    }
+
+    .hero p {
+        font-size: 1.4rem;
+    }
+
+    .department-item {
+        font-size: 1.3rem;
+    }
+
+    .contact h2 {
+        font-size: 2.8rem;
+    }
+
+    .contact p {
+        font-size: 1.3rem;
+    }
+
+    .social-links p {
+        font-size: 1.3rem;
+        margin-bottom: 18px; /* Adjust spacing */
+    }
+}
+
+
+/* 768px & below → Large phones & tablets */
+@media (max-width: 768px) {
+    .new-side-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        transform: none;
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        border-radius: 0;
+        background-color: #333;
+    }
+
+    .new-side-nav ul {
+        display: none; /* Hide the navigation links by default */
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .new-side-nav ul.show {
+        display: flex; /* Show the navigation links when toggled */
+    }
+
+    .new-side-nav a {
+        font-size: 1rem; /* Decrease font size */
+        padding: 10px 15px; /* Adjust padding */
+        width: 100%; /* Make links take full width */
+        text-align: left;
+    }
+
+    .menu-toggle {
+        display: block; /* Show the toggle button */
+        margin-bottom: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
